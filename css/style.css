@@ -11,4 +11,14 @@ header {
     background-color: #D77F33;
     padding: 1rem 2rem;
     border-color: 2px solid #ccc;
+    
+}
+
+#header-right {
+    display: flex;
+    gap: 1rem;
+}
+
+#header-right a {
+    text-decoration: none;
 }

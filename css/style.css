@@ -67,6 +67,16 @@ img {
     background-color: rgb(158, 158, 158);
 }
 
+.wheretxt {
+    text-align: center;
+}
+
+.where {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 footer {
     display: flex;
     justify-content: space-between;

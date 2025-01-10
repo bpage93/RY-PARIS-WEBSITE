@@ -30,6 +30,7 @@ img {
     gap: 1rem;
 }
 
+<<<<<<< HEAD
 .everytxt {
     text-align: center;
 }
@@ -38,6 +39,22 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+=======
+#image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.image-contaier h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 10px;
+    font-size: 24px;
+>>>>>>> 1cc23ceebec4d3a29b171464cd74004a7b4370ad
 }
 
 footer {

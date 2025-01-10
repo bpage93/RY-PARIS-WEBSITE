@@ -42,3 +42,14 @@ footer {
     padding: 1rem 2rem;
     border-color: 0px solid white;
 }
+
+
+#footer-left{
+    display: flex;
+    gap: 1 rem;
+}
+
+#footer-right {
+    display: flex;
+    gap: 1rem;
+}

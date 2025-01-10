@@ -38,8 +38,8 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
 
-    
 #image-container {
     position: relative;
     width: 100%;
@@ -54,7 +54,17 @@ img {
     background-color: aliceblue;
     padding: 10px;
     font-size: 24px;
->>>>>>> 1cc23ceebec4d3a29b171464cd74004a7b4370ad
+}
+
+.healtxt {
+    text-align: center;
+}
+
+.healthy {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(158, 158, 158);
 }
 
 footer {

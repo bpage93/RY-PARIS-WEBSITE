@@ -1,46 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div id="header-left">
-          <img
-            src="../images/ryparis-logo.png"
-            alt="hero"
-            style="width: 150px; height: 50px"
-          />
-        </div>
-        <div>
-          <nav id="header-right">
-            <a href="index.html">Home</a>
-            <a href="dayBurger.html">Popular Recipes</a>
-            <a href="What's New">What's New</a>
-            <a href="Categories">Categories</a>
-            <a href="Meal Ideas">Meal Ideas</a>
-          </nav>
-        </div>
-      </header>
-      <main>
-        <section>
-            
-        </section>
-      </main>
-      <footer>
-        <div id="footer-left">
-          <p>&copy;2020 RY PARIS</p>
-        </div>
-        <div id="footer-right">
-          <a href="siteMap.html">Site Map</a>
-          <a href="Privacy Policy">Privacy Policy</a>
-          <a href="About">About</a>
-          <a href="Advertise">Advertise</a>
-          <a href="Help">Help</a>
-        </div>
-      </footer>
-</body>
+      <div id="header-left">
+        <img
+          src="../images/ryparis-logo.png"
+          alt="hero"
+          style="width: 150px; height: 50px"
+        />
+      </div>
+      <div>
+        <nav id="header-right">
+          <a href="index.html">Home</a>
+          <a href="dayBurger.html">Popular Recipes</a>
+          <a href="What's New">What's New</a>
+          <a href="Categories">Categories</a>
+          <a href="Meal Ideas">Meal Ideas</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Building Location</h2>
+        <div id="map" style="height: 500px; width: 100%;"></div> <!-- Ensure the map container has a size -->
+      </section>
+    </main>
+    <footer>
+      <div id="footer-left">
+        <p>&copy;2020 RY PARIS</p>
+      </div>
+      <div id="footer-right">
+        <a href="siteMap.html">Site Map</a>
+        <a href="Privacy Policy">Privacy Policy</a>
+        <a href="About">About</a>
+        <a href="Advertise">Advertise</a>
+        <a href="Help">Help</a>
+      </div>
+    </footer>
+
+    <!-- Google Maps API script -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <!-- need to pay with real money for YOUR_API_KEY -->
+    <!-- Link to external JavaScript file -->
+    <script src="js/map.js"></script> <!-- External JS file link -->
+  </body>
 </html>
+

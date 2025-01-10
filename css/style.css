@@ -30,7 +30,6 @@ img {
     gap: 1rem;
 }
 
-<<<<<<< HEAD
 .everytxt {
     text-align: center;
 }
@@ -39,7 +38,8 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-=======
+
+    
 #image-container {
     position: relative;
     width: 100%;

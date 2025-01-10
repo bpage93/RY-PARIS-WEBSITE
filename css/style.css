@@ -31,7 +31,8 @@ img {
 }
 
 .everytxt {
-    text-align: center;
+    text-align: left;
+    padding: 0 10px 0 50px;
 }
 
 .everyday {
@@ -63,7 +64,8 @@ img {
 }
 
 .healtxt {
-    text-align: center;
+    text-align: left;
+    padding: 0 10px 0 50px;
 }
 
 .healthy {
@@ -74,7 +76,8 @@ img {
 }
 
 .wheretxt {
-    text-align: center;
+    text-align: left;
+    padding: 0 10px 0 50px;
 }
 
 .where {

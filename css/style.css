@@ -68,10 +68,9 @@ img {
     text-align: left;
 }
 
-.healthy img {
+.image-row {
     display: flex;
-    gap: 10px; /* Adds space between images */
-    flex-wrap: wrap; /* Ensures images wrap to the next line if necessary */
+    justify-content: flex-start;
 }
 
 .wheretxt {

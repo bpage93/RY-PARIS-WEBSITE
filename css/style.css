@@ -109,7 +109,7 @@ img {
 
 .healthy p {
     flex: 1; /* Allows the paragraph to take up remaining space */
-    text-align: justify; /* Ensures text is aligned evenly on both sides */
+    text-align: left; /* Ensures text is aligned evenly on both sides */
     margin: 0;
     max-width: 600px; /* Sets a reasonable max width */
     padding: 10px;
@@ -117,20 +117,17 @@ img {
 
 .healthy-row {
     display: flex;
-    justify-content: space-around; /* Even spacing between images */
+    justify-content: center; /* Even spacing between images */
+    align-items: center; /* Center vertically (if applicable) */
     flex-wrap: wrap; /* Wrap images to the next row if necessary */
-    gap: 1px; /* Space between rows or items */
-}
-
-.healthy-row p {
-    text-align: center;
+    gap: 50px ; /* Space between rows or items */
+    
 }
 
 .healthy-row img {
     width:150px;
     height: 125px;
     object-fit: cover;
-    
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;

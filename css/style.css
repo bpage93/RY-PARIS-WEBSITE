@@ -30,15 +30,38 @@ img {
     gap: 1rem;
 }
 
-.everytxt {
-    text-align: left;
-    padding: 0 10px 0 50px;
+.everyday {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-.everyday {
+.everyday h2 {
+    text-align: left;
+    margin-bottom: 10px;
+} 
+
+.everyday-row {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around; /* Even spacing between images */
+    flex-wrap: wrap; /* Wrap images to the next row if necessary */
+    gap: 1px; /* Space between rows or items */
+}
+
+.everyday-row img {
+    width:150px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.everyday-row div p{
+    text-align: center;
 }
     
 #hero{
@@ -91,14 +114,18 @@ img {
     padding: 10px;
  }
 
-.img-row {
+.healthy-row {
     display: flex;
     justify-content: space-around; /* Even spacing between images */
     flex-wrap: wrap; /* Wrap images to the next row if necessary */
     gap: 1px; /* Space between rows or items */
 }
 
-.img-row img {
+.healthy-row div p{
+    text-align: center;
+}
+
+.healthy-row img {
     width:150px;
     height: 125px;
     object-fit: cover;
@@ -107,15 +134,29 @@ img {
     transition: transform 0.3s ease;
 }
 
-.wheretxt {
-    text-align: left;
-    padding: 0 10px 0 50px;
+.location {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-.where {
+.location-row{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around; /* Even spacing between images */
+    flex-wrap: wrap; /* Wrap images to the next row if necessary */
+    gap: 1px; /* Space between rows or items */
+}
+
+.location-row div p{
+    text-align: center;
+}
+
+.location-row img {
+    width: 200px;
+    height: 150px
 }
 
 footer {

@@ -143,6 +143,11 @@ img {
     text-align: center;
 }
 
+.healthy-row div p {
+    background: white;
+    border-radius: 5px;
+}
+
 .img-background {
     width: 100%;
     border-radius: 5px;

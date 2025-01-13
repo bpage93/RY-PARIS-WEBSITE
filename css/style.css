@@ -195,3 +195,17 @@ footer {
     display: flex;
     gap: 1rem;
 }
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instructions p {
+    padding-top: 10px;
+}
+
+.time {
+    color: blue;
+}

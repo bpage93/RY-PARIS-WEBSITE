@@ -185,7 +185,6 @@ footer {
     border-color: 0px solid white;
 }
 
-
 #footer-left{
     display: flex;
     gap: 1 rem;
@@ -196,16 +195,60 @@ footer {
     gap: 1rem;
 }
 
-#info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bengal-hero{
+    position: relative;
+    margin: 0;
 }
 
-.instructions p {
-    padding-top: 10px;
+.bengal-hero img {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.bengal-hero h1 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    padding: 10px;
+    background-color: #D77F33;
+    text-align: center;
+    width: 40%;
 }
 
 .time {
-    color: blue;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+.time h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.time div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    padding: 15px;
+}
+
+#burger-txt {
+    max-width: 100%;
+}
+
+#burger-txt .info {
+    display: flex;
+    align-items: center;
+}
+
+.burger-txt .info .instructions {
+    width: 50%;
+}
+
+.burger-txt .info .instructions p {
+    padding-top: 10px;
 }

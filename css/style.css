@@ -16,7 +16,6 @@ header {
     background-color: #D77F33;
     padding: 1rem 2rem;
     border-color: 0px solid white;
-    
 }
 
 img {
@@ -232,8 +231,41 @@ footer {
     justify-content: space-between;
 }
 
-.description {
+.description #reviews {
+    text-align: center;
     padding: 15px;
+}
+
+.description #reviews h2 {
+    font-size: 40px;
+}
+
+.description #reviews .star {
+    color: orange;
+  }
+  
+button{
+    border: none;
+    border-radius: 500px;
+    padding: 7px;
+    color: white;
+    background-color: red;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #D77F33;
+}
+
+.description #description-txt {
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+    font-size: 20px;
+    padding: 2% 10%;
+    max-width: 50%;
+    margin-left: 15%;
+    margin-bottom: 2%;
 }
 
 #burger-txt {
@@ -242,13 +274,25 @@ footer {
 
 #burger-txt .info {
     display: flex;
-    align-items: center;
+    max-width: 100%;
 }
 
-.burger-txt .info .instructions {
+#burger-txt .info .ingredients {
     width: 50%;
 }
 
-.burger-txt .info .instructions p {
-    padding-top: 10px;
+#burger-txt .info .ingredients li {
+    padding: 5px;
+}
+
+#burger-txt h3 {
+    font-size: 25px;
+}
+
+#burger-txt .info .instructions {
+    width: 40%;
+}
+
+#burger-txt .info .instructions li{
+    padding-top: 3%;
 }

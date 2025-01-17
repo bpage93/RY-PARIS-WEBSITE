@@ -32,14 +32,14 @@ img {
 .everyday {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 0 50px;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
 }
 
 .everyday h2 {
-    text-align: left;
+    font-size: 35px;
     margin-bottom: 10px;
 } 
 
@@ -92,17 +92,16 @@ img {
 }
 
 .healthy {
-    text-align: left;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+    padding: 10px 50px;
+    background-color: lightgray;
     color: #333;
 }
 
 .healthy h2 {
-    text-align: left;
+    font-size: 35px;
     margin-bottom: 10px;
 } 
 
@@ -153,10 +152,14 @@ img {
 .location {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
+    margin: 0 50px;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+}
+
+.location h2 {
+    font-size: 35px;
 }
 
 .location-row{
@@ -213,6 +216,11 @@ footer {
     background-color: #D77F33;
     text-align: center;
     width: 40%;
+}
+
+#bengal {
+    display: flex;
+    flex-direction: column;
 }
 
 .time {

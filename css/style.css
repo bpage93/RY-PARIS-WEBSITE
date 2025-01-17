@@ -18,15 +18,20 @@ header {
     border-color: 0px solid white;
 }
 
-img {
+/* img {
     max-width:100%;
     height: 100%;
     object-fit: cover;
-}
+} */
 
 #header-right {
     display: flex;
+    align-items: center;
     gap: 1rem;
+}
+
+#header-right a {
+    font-size: 10px;
 }
 
 .everyday {
@@ -45,22 +50,51 @@ img {
 
 .everyday-row {
     display: flex;
-    justify-content: space-around; /* Even spacing between images */
-    flex-wrap: wrap; /* Wrap images to the next row if necessary */
-    gap: 1px; /* Space between rows or items */
+    justify-content: center; 
+    /* align-items: center;  */
+    gap: 5px;
+    /* flex-wrap: wrap;  */
 }
 
-.everyday-row img {
+.everyday img {
     width:150px;
-    height: 125px;
+    height: 100px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
-.everyday-row div p{
+/* .everyday-row img {
+    justify-content: center;
+    padding-top: 10px;
+    width: 100px;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+} */
+
+.everyday-row div {
+    /* background-color: #b0acac; */
+    border-radius: 8px;
+    padding: 10px;
     text-align: center;
+}
+
+.everyday p {
+    flex: 1; 
+    text-align: left; 
+    margin: 0;
+    max-width: 600px; 
+    padding: 10px;
+ }
+
+.everyday-row div p{
+    padding: 10px;
+    background-color: rgb(229, 223, 223);;
+    border-radius: 5px;
 }
     
 #hero{
@@ -70,6 +104,7 @@ img {
 }
 
 #hero img {
+    margin-top: 5px;
     width: 100%;
     height: 400px;
     object-fit: cover;
@@ -106,51 +141,41 @@ img {
 } 
 
 .healthy p {
-    flex: 1; /* Allows the paragraph to take up remaining space */
-    text-align: left; /* Ensures text is aligned evenly on both sides */
+    flex: 1; 
+    text-align: left; 
     margin: 0;
-    max-width: 600px; /* Sets a reasonable max width */
+    max-width: 600px; 
     padding: 10px;
  }
 
 .healthy-row {
     display: flex;
-    justify-content: center; /* Even spacing between images */
-    align-items: center; /* Center vertically (if applicable) */
-    flex-wrap: wrap; /* Wrap images to the next row if necessary */
-    gap: 50px ; /* Space between rows or items */
-    
+    justify-content: center; 
+    gap: 5px;
+    /* flex-wrap: wrap;  */
 }
 
 .healthy-row img {
     width:150px;
-    height: 125px;
+    height: 100px;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
 }
 
 .healthy-row div {
-    background-color: #b0acac;
+    /* background-color: #b0acac; */
     border-radius: 8px;
     padding: 10px;
     text-align: center;
 }
 
 .healthy-row div p {
-    background: white;
+    background: rgb(229, 223, 223);
     border-radius: 5px;
 }
-
-.img-background {
-    width: 100%;
-    border-radius: 5px;
-}
-
 
 .location {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0 50px;
     padding: 0;
@@ -164,9 +189,9 @@ img {
 
 .location-row{
     display: flex;
-    justify-content: space-around; /* Even spacing between images */
-    flex-wrap: wrap; /* Wrap images to the next row if necessary */
-    gap: 1px; /* Space between rows or items */
+    justify-content: space-around; 
+    /* flex-wrap: wrap;  */
+    gap: 1px; 
 }
 
 .location-row div p{
@@ -174,8 +199,12 @@ img {
 }
 
 .location-row img {
-    width: 200px;
-    height: 150px 
+    width:150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 footer {
